@@ -1,0 +1,29 @@
+{
+  "metrics": {
+    "metrics_collected": {
+      "cpu": {
+        "measurement": [
+          "cpu_usage_idle",
+          "cpu_usage_user",
+          "cpu_usage_system"
+        ],
+        "metrics_collection_interval": 60,
+        "resources": [
+          "*"
+        ]
+      },
+      "nvidia_gpu": {
+        "measurement": [
+          "utilization_gpu",
+          "utilization_memory",
+          "temperature_gpu",
+          "power_draw"
+        ],
+        "metrics_collection_interval": 60,
+        "resources": [
+          "*"
+        ]
+      }
+    }
+  }
+}
